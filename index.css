@@ -1,0 +1,48 @@
+*{
+    margin: 0;
+    padding:0;
+    background: #212b46;
+    font-family:monospace;
+}
+.container{
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+.title{
+    margin: 20px;
+    font-size:6em;
+    color: aqua;
+}
+#campo{
+    width: 28em;
+    padding:0.4rem;
+    font-size: 17px;
+    border-radius: 0.4em;
+    color: #000;
+    background-color: wheat;
+}
+::placeholder{
+    opacity:13;
+    font-size: 16px;
+}
+#btn{
+    margin: 1em;
+    padding: 0.4em;
+    width: 13em;
+    font-size: 16px;
+    background-color:aqua;
+    border-radius: 0.6em;
+}
+#btn:hover{
+    opacity: 0.6;
+    transition: all 0.7s;
+}
+ul{
+    list-style: none;
+    margin: 2em;
+    font-size: 30px;
+    color:white
+}
